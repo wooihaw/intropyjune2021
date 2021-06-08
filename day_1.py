@@ -27,4 +27,7 @@ a = var_int + var_float
 print(a, type(a))
 
 alist = [1, 2, 3, a, 'five', [6, 7.89]]
-print(type(alist))
+print(alist, type(alist))
+
+alist[1] = -2
+print(alist)
