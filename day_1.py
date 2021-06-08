@@ -206,3 +206,6 @@ print(str5.count('o'))
 print(str5.replace('to', 'no', 1))  # only replace the first 'to'
 alist = str5.split()
 print(alist)
+
+str6 = '1'
+print(str6.zfill(5))
