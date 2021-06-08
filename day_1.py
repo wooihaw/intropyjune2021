@@ -160,3 +160,5 @@ str1 = '''This is a multiple lines \
 string that is spanning multiple lines \
 of text.'''
 print(str1)
+
+print('Let\'s try out Python programming')
