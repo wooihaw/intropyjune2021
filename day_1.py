@@ -203,3 +203,4 @@ print(f'{str4.swapcase()}')
 
 str5 ='to be or not to be'
 print(str5.count('o'))
+print(str5.replace('to', 'no'))
