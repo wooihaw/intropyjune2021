@@ -88,4 +88,4 @@ print(f'{ans2=}, {type(ans2)}')
 i = 0
 while i < 10:
     print(i)
-    a += 1  # a = a + 1
+    i += 1  # a = a + 1
