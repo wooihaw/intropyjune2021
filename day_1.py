@@ -58,4 +58,5 @@ print(a * b / 2.1)
 print((a + b - c) * 3.1416)
 
 str1 = 'fun'
-#print(3 + str1)
+#print(3 + str1)  we cannot add int to str
+print(3 * str1)
