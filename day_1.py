@@ -106,3 +106,6 @@ for i in a:
 b = 'hello world!'
 for i in b:
     print(i)
+    
+for i in range(10):
+    print('Hello')
