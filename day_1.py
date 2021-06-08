@@ -62,4 +62,4 @@ str1 = ' fun'
 print(3 * str1)
 
 str2 = 'Python is'
-print(str2 + str1)
+print(str2 + str1)  # string concatenation
