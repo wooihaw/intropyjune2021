@@ -112,3 +112,10 @@ for i in range(10):
     
 for i in range(-10, 10, 2):
     print(i)
+
+for i in range(3):
+    print('This is in loop 1')
+    for j in range(2):
+        print('This is in loop 2')
+    print('This is back to loop 1')
+print('This is outside of the loops')
