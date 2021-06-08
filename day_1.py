@@ -119,3 +119,10 @@ for i in range(3):
         print('This is in loop 2')
     print('This is back to loop 1')
 print('This is outside of the loops')
+
+a = ['apple', 'banana', 'ciku']
+b = [1.20, 2.40, 3.75, 4.8]
+c = [1, 2, 3, 4, 5]
+
+for i, j, k in zip(c, a, b):
+    
