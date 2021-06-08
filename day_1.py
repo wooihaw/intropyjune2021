@@ -74,5 +74,5 @@ print(f'{g=}', type(g))
 h = int(g)  # convert float to int
 print(f'{h=}', type(h))
 
-print(-2 ** 2)
-print((-2) ** 2)
+print(-2 ** 2)  # this will give us -4
+print((-2) ** 2)  # this will give us 4
