@@ -45,3 +45,5 @@ print(astring[0:10])  # print the first 10 characters
 #%% Operations on variables
 a, b, c = 23, 45.67, 8 + 5j
 print(f'{a=}, {b=}, {c=}')
+
+
