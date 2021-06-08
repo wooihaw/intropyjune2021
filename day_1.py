@@ -77,9 +77,15 @@ print(f"{h=}", type(h))
 print(-(2 ** 2))  # this will give us -4
 print((-2) ** 2)  # this will give us 4
 
-#%% Input, output, loops and conditional statement
+#%% Input, output
 ans = input('Enter a number: ')
 print(f'{ans=}, {type(ans)}')
 
 ans2 = eval(input('Enter a number: '))
 print(f'{ans2=}, {type(ans2)}')
+
+#%% loops and conditional statement
+i = 0
+while i < 10:
+    print(i)
+    a += 1  # a = a + 1
