@@ -22,3 +22,6 @@ print(type(var_complex))
 
 var_none = None
 print(type(var_none))
+
+a = var_int + var_float
+print(a, type(a))
