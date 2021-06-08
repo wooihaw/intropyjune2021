@@ -156,7 +156,7 @@ from math import sin, cos, pi
 print(sin(pi/2), cos(pi))
 
 #%% Strings
-str1 = '''This is a multiple lines\
-string that is spanning multiple lines\
+str1 = '''This is a multiple lines \
+string that is spanning multiple lines \
 of text.'''
 print(str1)
