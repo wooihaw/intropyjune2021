@@ -70,3 +70,6 @@ print(f'{str3=}', type(str3))
 
 g = eval(str3)
 print(f'{g=}', type(g))
+
+h = int(g)
+print(f'{h=}', type(h))
