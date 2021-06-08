@@ -134,3 +134,12 @@ for i, j in enumerate(a, start=1):
 ans = eval(input('Enter an integer: '))
 res = 'even' if ans % 2 == 0 else 'odd'
 print(f'You have entered an {res} number')
+
+#%% Functions
+def myfunc():
+    pass
+
+def make_polite(sentence):
+    return sentence + ', please'
+
+print(make_polite('Pass me the cheese'))
