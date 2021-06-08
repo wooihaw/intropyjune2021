@@ -194,3 +194,4 @@ str2 = 'world'
 str3 = '123'
 str4 = 'Testing123!'
 
+print(f'{str1=} consists of alphabets only: {str1.isalpha()}')
