@@ -63,3 +63,4 @@ print(3 * str1)
 
 str2 = 'Python is'
 print(str2 + str1)  # string concatenation
+print(str2 + 3*str1)
