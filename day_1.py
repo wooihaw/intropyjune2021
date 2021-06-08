@@ -200,3 +200,6 @@ print(f'{str3=} consists of digits only: {str3.isdigit()}')
 print(f'{str4=} consists of alphabets & digits only: {str4.isalnum()}')
 print(f'{str1.lower()} {str2.upper()}')
 print(f'{str4.swapcase()}')
+
+str5 ='to be or not to be'
+print(str5.count('o'))
