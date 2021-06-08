@@ -203,6 +203,6 @@ print(f'{str4.swapcase()}')
 
 str5 ='to be or not to be'
 print(str5.count('o'))
-print(str5.replace('to', 'no'))
+print(str5.replace('to', 'no', 1))  # only replace the first 'to'
 alist = str5.split()
 print(alist)
