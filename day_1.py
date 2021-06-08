@@ -38,3 +38,6 @@ print(adict, len(adict), type(adict))
 adict['banana'] = 3.4  # change the value of 'banana'
 print(adict)
 
+astring = 'Introduction to Python'
+print(astring, len(astring), type(astring))
+
