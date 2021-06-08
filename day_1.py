@@ -177,4 +177,4 @@ print(s[::-1])  # reverse the string
 
 quantity = int(input('Enter quantity: '))
 price = float(input('Enter the price: '))
-print(f'')
+print(f'Total price for {quantity} apples is RM{quantity*price:.2f}')
