@@ -168,5 +168,6 @@ print('This is a new line character \\n.')
 print(r'This is a new line character \n.')
 
 s = 'This is a simple string.'
-print(s[0])  
-print(s[-1])
+print(s[0])  # First character
+print(s[-1])  # Last character
+
