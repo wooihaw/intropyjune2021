@@ -148,3 +148,6 @@ print(make_polite('Order me a pizza'))
 #%% Modules
 import math
 print(math.cos(math.pi))
+
+import math as m
+print(m.sin(m.pi/2))
