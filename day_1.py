@@ -192,8 +192,9 @@ for i in range(50):
 str1 = 'Hello'
 str2 = 'world'
 str3 = '123'
-str4 = 'Testing123!'
+str4 = 'Testing123'
 
 print(f'{str1=} consists of alphabets only: {str1.isalpha()}')
 print(f'{str3=} consists of alphabets only: {str3.isalpha()}')
 print(f'{str3=} consists of digits only: {str3.isdigit()}')
+print(f'{str4=} consists of alphabets & digits only: {str4.isalnum()}')
