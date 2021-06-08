@@ -76,3 +76,5 @@ print(f"{h=}", type(h))
 
 print(-(2 ** 2))  # this will give us -4
 print((-2) ** 2)  # this will give us 4
+
+#%% Input, output, loops and conditional statement
