@@ -131,3 +131,6 @@ for i, j in enumerate(a, start=1):
     print(f'{i}. {j}')
 
 #%% Ternary if-else
+ans = eval(input('Enter an integer: '))
+res = 'even' if ans % 2 == 0 else 'odd'
+print(f'You have entered an {res} number')
