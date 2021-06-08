@@ -16,3 +16,9 @@ print(type(var_int))
 
 var_float = 5.
 print(type(var_float))
+
+var_complex = 1. - 3j
+print(type(var_complex))
+
+var_none = None
+print(type(var_none))
