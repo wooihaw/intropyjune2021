@@ -212,3 +212,5 @@ print(str6.zfill(5))
 
 blist = list(str1)
 print(blist)
+str7 = ''.join(blist)
+print(f'{str7=}')
