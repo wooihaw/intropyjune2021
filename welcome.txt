@@ -1,1 +1,3 @@
 Welcome to Introduction to Python
+
+This repository contains the in-class examples for the training and it will be constantly updated during the training.
