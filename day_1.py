@@ -35,4 +35,6 @@ print(len(alist))
 
 adict = {'apple':1.2, 'banana':2.3}
 print(adict, len(adict), type(adict))
+adict['banana'] = 3.4
+print(adict)
 
