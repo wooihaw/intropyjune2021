@@ -209,3 +209,6 @@ print(alist)
 
 str6 = '1'
 print(str6.zfill(5))
+
+blist = list(str1)
+print(blist)
