@@ -40,4 +40,4 @@ print(adict)
 
 astring = 'Introduction to Python'
 print(astring, len(astring), type(astring))
-
+print(astring[0:10])  # print the first 10 characters
