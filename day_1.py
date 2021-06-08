@@ -102,3 +102,7 @@ while True:
 a = [1, 3, 5, 'a', 'b']
 for i in a:
     print(i)
+
+b = 'hello world!'
+for i in b:
+    print(i)
