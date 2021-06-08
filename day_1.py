@@ -89,3 +89,10 @@ i = 0
 while i < 10:
     print(i)
     i += 1  # i = i + 1
+    
+while True:
+    ans = input('Do you want to continue? (y/n) ')
+    if ans == 'n':
+        break
+    elif ans == 'y':
+        print("Let's continue")
