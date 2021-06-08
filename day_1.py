@@ -144,3 +144,7 @@ def make_polite(sentence):
 
 print(make_polite('Pass me the cheese'))
 print(make_polite('Order me a pizza'))
+
+#%% Modules
+import math
+print(math.cos(math.pi))
