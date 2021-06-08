@@ -29,5 +29,5 @@ print(a, type(a))
 alist = [1, 2, 3, a, 'five', [6, 7.89]]
 print(alist, type(alist))
 
-alist[1] = -2
+alist[1] = -2  # change 2nd element
 print(alist)
