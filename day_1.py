@@ -143,3 +143,4 @@ def make_polite(sentence):
     return sentence + ', please'
 
 print(make_polite('Pass me the cheese'))
+print(make_polite('Order me a pizza'))
