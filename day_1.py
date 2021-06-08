@@ -129,4 +129,5 @@ for i, j, k in zip(c, a, b):
 
 for i, j in enumerate(a, start=1):
     print(f'{i}. {j}')
-    
+
+#%% Ternary if-else
