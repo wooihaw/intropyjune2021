@@ -183,4 +183,8 @@ print(f'Total price for {quantity} apples is RM{quantity*price:.2f}')
 emoji = '😊'
 print(f'Today is a {emoji} day')
 
-print(ord(emoji))
+print(ord(emoji))  # show the unicode for the emoji
+
+for i in range(10):
+    print(chr(ord(emoji)+i))
+
