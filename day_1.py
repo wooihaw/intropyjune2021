@@ -60,3 +60,6 @@ print((a + b - c) * 3.1416)
 str1 = ' fun'
 #print(3 + str1)  we cannot add int to str
 print(3 * str1)
+
+str2 = 'Python is'
+print(str2 + str1)
