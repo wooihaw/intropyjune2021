@@ -151,3 +151,6 @@ print(math.cos(math.pi))
 
 import math as m
 print(m.sin(m.pi/2))
+
+from math import sin, cos, pi
+print(sin(pi/2), cos(pi))
