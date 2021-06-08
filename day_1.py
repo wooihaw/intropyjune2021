@@ -165,3 +165,4 @@ print('Let\'s try out Python programming')
 print('This is Line 1\\nThis is still Line 1')
 
 print('This is a new line character \\n.')
+print(r'This is a new line character \n.')
