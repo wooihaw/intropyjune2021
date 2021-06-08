@@ -93,6 +93,7 @@ while i < 10:
 while True:
     ans = input('Do you want to continue? (y/n) ')
     if ans == 'n':
+        print('Bye!')
         break
     elif ans == 'y':
         print("Let's continue")
