@@ -195,3 +195,5 @@ str3 = '123'
 str4 = 'Testing123!'
 
 print(f'{str1=} consists of alphabets only: {str1.isalpha()}')
+print(f'{str3=} consists of alphabets only: {str3.isalpha()}')
+print(f'{str3=} consists of digits only: {str3.isdigit()}')
