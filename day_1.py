@@ -186,5 +186,5 @@ print(f'Today is a {emoji} day')
 print(ord(emoji))  # show the unicode for the emoji
 
 for i in range(20):
-    print(chr(ord(emoji)+i), end='')
+    print(ord(emoji)+i, chr(ord(emoji)+i), sep=': ', end='')
 
