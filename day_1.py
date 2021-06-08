@@ -173,3 +173,4 @@ print(s[-1])  # Last character
 print(s[:4])  # first 4 characters
 print(s[-7:]) # last 7 characters
 print(s[0:12:2])  # start from first character and skip one character each time
+print(s[::-1])  # reverse the string
