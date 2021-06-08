@@ -127,6 +127,6 @@ c = [1, 2, 3, 4, 5]
 for i, j, k in zip(c, a, b):
     print(f'{i}. {j}: RM{k}')
 
-for i, j in enumerate(a):
+for i, j in enumerate(a, start=1):
     print(f'{i}. {j}')
     
