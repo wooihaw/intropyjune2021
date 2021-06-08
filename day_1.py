@@ -68,8 +68,8 @@ print(str2 + 3*str1)
 str3 = '123.456'
 print(f'{str3=}', type(str3))
 
-g = eval(str3)
+g = eval(str3)  # convert string to float
 print(f'{g=}', type(g))
 
-h = int(g)
+h = int(g)  # convert float to int
 print(f'{h=}', type(h))
