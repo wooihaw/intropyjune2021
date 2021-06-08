@@ -84,7 +84,7 @@ print(f'{ans=}, {type(ans)}')
 ans2 = eval(input('Enter a number: '))
 print(f'{ans2=}, {type(ans2)}')
 
-#%% loops and conditional statement
+#%% while loops and conditional statement
 i = 0
 while i < 10:
     print(i)
@@ -97,3 +97,8 @@ while True:
         break
     elif ans == 'y':
         print("Let's continue")
+
+#%% for loops
+a = [1, 3, 5, 'a', 'b']
+for i in a:
+    print(i)
