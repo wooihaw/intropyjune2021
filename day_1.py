@@ -31,3 +31,8 @@ print(alist, type(alist))
 
 alist[1] = -2  # change 2nd element
 print(alist)
+print(len(alist))
+
+adict = {'apple':1.2, 'banana':2.3}
+print(adict, len(adict), type(adict))
+
