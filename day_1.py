@@ -67,3 +67,6 @@ print(str2 + 3*str1)
 
 str3 = '123.456'
 print(f'{str3=}', type(str3))
+
+g = int(str3)
+print(f'{g=}', type(g))
