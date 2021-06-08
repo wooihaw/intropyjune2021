@@ -46,4 +46,7 @@ print(astring[0:10])  # print the first 10 characters
 a, b, c = 23, 45.67, 8 + 5j
 print(f'{a=}, {b=}, {c=}')
 
-
+c = 12.5
+d = -34.78
+c, d = d, c  # swap values between variables
+print(f'{c=}, {d=}')
