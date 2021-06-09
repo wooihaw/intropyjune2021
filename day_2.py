@@ -47,9 +47,12 @@ while a:
     print(f'{a=}')
 
 b = [21, 43, 12, -3, -7]
-c = sorted(b)
-d = sorted(b, reverse=True)
+c = sorted(b)  # c will get a sorted copy of b in ascending order
+d = sorted(b, reverse=True)  # d will get a sorted copy of b in descending order
 print(f'{b=}, {c=}, {d=}')
 
-e = b.sort()
+e = b.sort()  # b itself will get be sorted, but it returns None to e
 print(f'{b=}, {e=}')
+
+b.reverse()  # b itself will be sorted (descending order)
+print(f'{b=}')
