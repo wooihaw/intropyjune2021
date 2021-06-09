@@ -10,3 +10,7 @@ print(alist[0])  # first item
 print(alist[-1])  # last item
 print(alist[-1][-1])  # this will print out -8.9
 print(alist.__sizeof__())  # print the size of alist
+
+alist[0] = -0.5
+del(alist[2])
+print(alist)
