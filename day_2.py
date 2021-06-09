@@ -183,3 +183,10 @@ d.update(e)  # update d with contents from e
 print(f'{d=}')
 e.clear()  # clear the contents of e
 print(f'{e=}')
+
+# Create a new dictionary for new prices after 10% discount
+# Method 1 - using for loop
+n1 = {}
+for k in d:
+    n1[k] = d[k] * 0.9  # 10% discount
+print(f'{d=}, {n1=}')
