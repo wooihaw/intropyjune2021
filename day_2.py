@@ -230,4 +230,10 @@ def make_polite(s):
     return s + ', please.'
 
 help(make_polite)
+print(make_polite.__doc__)
+
+#%% Lambda function
+
+ids = ['id1', 'id2', 'id30', 'id3', 'id22', 'id201', 'id125']
+print(f'{sorted(ids)=}')
     
