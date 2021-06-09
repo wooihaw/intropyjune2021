@@ -267,4 +267,13 @@ print(f'{a1=}, {a2=}')
 animals = ['cat', 'panda', 'raccoon', 'horse']
 animals2 = list(filter(lambda x: 'o' in x, animals))
 print(f'{animals2}')
+
+#%% Generator
+def mygen(x):
+    while True:
+        yield x
+        x += 5
+
+a = mygen(10)
+print(next(a))
     
