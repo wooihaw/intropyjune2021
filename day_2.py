@@ -103,3 +103,6 @@ for i in range(51):
     if i % 2 == 0:
         d.append(i)
 print(f'{d=}')   
+
+e = [i for i in range(51) if i % 2 == 0]
+print(f'{e=}')
