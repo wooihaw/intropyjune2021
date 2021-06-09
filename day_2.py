@@ -119,7 +119,20 @@ for i in s:
         c2 += 1  # c2 = c2 + 1
 print(f'Alphabets: {c1}, digits: {c2}')
 
-# Use list comprehension
+# Use list comprehension (Pythonic)
 c3 = [i for i in s if i.isalpha()]
 c4 = [i for i in s if i.isdigit()]
 print(f'Alphabets: {len(c3)}, digits: {len(c4)}')
+
+#%% Tuples
+alist = [1, 2.3, 4+5j, 'abc', (1, 2, 3)]
+atuple =(1, 2.3, 4+5j, 'abc', (1, 2, 3))
+
+print(atuple[0])  # first item
+print(atuple[-1])  # last item
+
+print(f'{alist.__sizeof__()=}, {atuple.__sizeof__()=}')
+
+alist[1] = -0.5  # change item at index 1
+#atuple[1] = -0.5  # this will cause an error
+
