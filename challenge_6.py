@@ -10,6 +10,6 @@ A peck of pickled peppers Peter Piper picked.
 If Peter Piper picked a peck of pickled peppers,
 where is the peck of pickled peppers Peter Piper picked?'''
 
-t = [c if c.isalpha() else ' ' for c in s]
+t = [c.lower() if c.isalpha() else ' ' for c in s]
 s2 = ''.join(t)
 print(f'{t=}\n{s2=}')
