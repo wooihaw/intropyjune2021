@@ -151,4 +151,7 @@ alist = ['x', 'y', 'y']
 blist = [1.2, 2.3, 4.5]
 d2 = dict(zip(alist, blist))
 
-# Method
+# Method 3 to create dictionary
+d3 = dict(x=1.2, y=2.3, z=4.5)
+
+print(f'{d1=}, {d2=}, {d3=}')
