@@ -219,3 +219,5 @@ print(f'{d4=}, {d5=}')
 
 from copy import deepcopy
 d6 = deepcopy(d4)
+d4['b'][1] = -29
+print(f'{d4=}, {d5=}, {d6=}')
