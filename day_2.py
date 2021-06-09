@@ -145,3 +145,10 @@ print(adict['happy'])  # retrieve the value using key
 
 # Method 1 to create dictionary
 d1 = {'x':1.2, 'y':2.3, 'z':4.5}
+
+# Method 2 to create dictionary
+alist = ['x', 'y', 'y']
+blist = [1.2, 2.3, 4.5]
+d2 = dict(zip(alist, blist))
+
+# Method
