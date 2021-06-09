@@ -114,7 +114,12 @@ s = 'Testing 12345! Is this working correctly 67890?'
 c1, c2 = 0, 0
 for i in s:
     if i.isalpha():
-        c1 += 1
+        c1 += 1  # c1 = c1 + 1
     elif i.isdigit():
-        c2 += 1
+        c2 += 1  # c2 = c2 + 1
 print(f'Alphabets: {c1}, digits: {c2}')
+
+# Use list comprehension
+c3 = [i for i in s if i.isalpha()]
+c4 = [i for i in s if i.isdigit()]
+print(f'Alphabets: {len(c3)}, digits: {len(c4)}')
