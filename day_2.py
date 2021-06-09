@@ -169,3 +169,6 @@ d['egg'] = 4.75  # add new key-value pair
 print(d['durian'])  # get the value for durian
 #print(d['orange'])  # error
 print(d.get('orange', 'not found'))  # It is better to use get method 
+
+print(f'{d.keys()}')  # to get all the keys
+print(f'{d.values()}')  # to get all the values
