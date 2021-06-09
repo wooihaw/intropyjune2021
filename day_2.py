@@ -168,3 +168,4 @@ for k in d:
 d['egg'] = 4.75  # add new key-value pair
 print(d['durian'])  # get the value for durian
 #print(d['orange'])  # error
+print(d.get('orange', 'not found'))
