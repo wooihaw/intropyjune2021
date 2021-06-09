@@ -172,3 +172,7 @@ print(d.get('orange', 'not found'))  # It is better to use get method
 
 print(f'{d.keys()=}')  # to get all the keys
 print(f'{d.values()=}')  # to get all the values
+print(f'{d.items()=}')  # get all the key-value pairs
+
+del d['ciku']  # remove the key-value pair for ciku
+print(f'{d=}')
