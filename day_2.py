@@ -43,5 +43,5 @@ print(f'{a=}')
 a = list(range(5))
 print(f'{a=}')
 while a:
-    print(a.pop(0))
+    print(a.pop(0))  # remove first item (index 0) from a
     print(f'{a=}')
