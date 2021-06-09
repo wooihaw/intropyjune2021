@@ -106,3 +106,15 @@ print(f'{d=}')
 
 e = [i for i in range(51) if i % 2 == 0]
 print(f'{e=}')
+
+#%% Write a program to calculate the number of alphabets & digits in a string
+s = 'Testing 12345! Is this working correctly 67890?'
+
+# Use for loop
+c1, c2 = 0, 0
+for i in s:
+    if i.isalpha():
+        c1 += 1
+    elif i.isdigit():
+        c2 += 1
+print(f'Alphabets: {c1}, digits: {c2}')
