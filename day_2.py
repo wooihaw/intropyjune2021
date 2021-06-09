@@ -70,6 +70,7 @@ print(alist.index(2.3))  # get the index of 2.3 in the list
 a = [1, 2, 3, 'a', 'b']
 b = a  # b is an alias of a
 c = a[:]  # c is a copy of a
+print(f'{a=}, {b=}, {c=}')
 
 print(b is a)  # check whether b is an alias of a
 print(b == a)  # check whether b has the same contents as a
@@ -79,3 +80,4 @@ print(c == a)
 a[2] = '😊'
 a.append('x')
 print(f'{a=}, {b=}, {c=}')
+print(f'{id(a)=}, {id(b)=}, {id(c)=}')  # check addresses of a, b & c
