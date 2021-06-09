@@ -48,4 +48,4 @@ while a:
 
 b = [21, 43, 12, -3, -7]
 c = sorted(b)
-print(f'{c=}')
+print(f'{b=}, {c=}')
