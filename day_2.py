@@ -91,3 +91,7 @@ b = []
 for i in a:
     b.append(i**2)
 print(f'{a=}, {b=}')
+
+# Use list comprehension
+c = [i**2 for i in a]
+print(f'{a=}, {c=}')
