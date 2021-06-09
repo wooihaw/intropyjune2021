@@ -216,3 +216,6 @@ print(f'{d4=}, {d5=}')
 
 d4['b'][0] = -7
 print(f'{d4=}, {d5=}')
+
+from copy import deepcopy
+d6 = deepcopy(d4)
