@@ -195,5 +195,6 @@ n2 = {k:d[k] * 0.9 for k in d}
 print(f'{d=}, {n2=}')
 
 adict = {'happy': '😊', 'sad': '😢', 'neutral': '😑', 'angry': '😠'}
-bdict = {adict[k]:k for k in adict}  # reverse mapping
+bdict = {adict[k]:k for k in adict}  # reverse mapping using dictionary comprehension
 print(f'{adict=}, {bdict=}')
+print(bdict.get('😑'))
