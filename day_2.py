@@ -14,3 +14,6 @@ print(alist.__sizeof__())  # print the size of alist
 alist[0] = -0.5
 del(alist[2])
 print(alist)
+
+alist.append('😂')
+print(alist)
