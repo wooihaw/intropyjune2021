@@ -161,4 +161,5 @@ print(f'{d1=}, {d2=}, {d3=}')
 
 #%% Methods for dictionary
 d = dict(apple=1.2, banana=3.4, ciku=2.5, durian=25)
-
+for k in d:
+    print(f'{k=}')  # iterate by keys
