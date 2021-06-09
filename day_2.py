@@ -221,3 +221,13 @@ from copy import deepcopy
 d6 = deepcopy(d4)  # to create a deepcopy of d4
 d4['b'][1] = -29
 print(f'{d4=}, {d5=}, {d6=}')
+
+#%% Functions
+def make_polite(s):
+    '''This is a function to improve the politeness of the sentence.
+    Usage: make_polite(sentence) 
+    E.g. print(make_polite("Buy  me a burger"))'''
+    return s + ', please.'
+
+help(make_polite)
+    
