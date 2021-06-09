@@ -141,4 +141,7 @@ b = (3,) # a tuple with a single item
 
 #%% Dictionary
 adict = {'happy': '😊', 'sad': '😢', 'neutral': '😑'}
-print(adict['happy'])
+print(adict['happy'])  # retrieve the value using key
+
+# Method 1 to create dictionary
+d1 = {'x':1.2, 'y':2.3, 'z':4.5}
