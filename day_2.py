@@ -176,4 +176,8 @@ print(f'{d.items()=}')  # get all the key-value pairs
 
 del d['ciku']  # remove the key-value pair for ciku
 print(f'{d=}')
-print(f'{len(d)=}')
+print(f'{len(d)=}')  # print the number of key-value pair in the dictionary
+
+e = {'kiwi': 5.25, 'jambu': 2.5}
+d.update(e)
+print(f'{d=}')
