@@ -158,3 +158,7 @@ d2 = dict(zip(alist, blist))
 d3 = dict(x=1.2, y=2.3, z=4.5)
 
 print(f'{d1=}, {d2=}, {d3=}')
+
+#%% Methods for dictionary
+d = dict(apple=1.2, banana=3.4, ciku=2.5, durian=25)
+
