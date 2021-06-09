@@ -56,3 +56,10 @@ print(f'{b=}, {e=}')
 
 b.reverse()  # b itself will be sorted (descending order)
 print(f'{b=}')
+
+print(len(b))  #  check the number of items inside list b
+
+print(f'{alist=}')
+print('😂' in alist)  # check membership of item; return True if the item is inside the list
+print('abc' in alist)
+print('abc' not in alist)
