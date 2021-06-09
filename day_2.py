@@ -27,3 +27,5 @@ print(alist)
 blist = [34, -567.8]
 clist = alist + blist  # list concatenation
 print(clist)
+
+print(5 * blist)  # list repetition
