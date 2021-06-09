@@ -198,3 +198,7 @@ adict = {'happy': '😊', 'sad': '😢', 'neutral': '😑', 'angry': '😠'}
 bdict = {adict[k]:k for k in adict}  # reverse mapping using dictionary comprehension
 print(f'{adict=}, {bdict=}')
 print(bdict.get('😑'))
+#%% alias, copy and deep copy
+d1 = dict(a=1, b=3, c=5)
+d2 = d1
+print(f'{d1=}', '{d2=}')
