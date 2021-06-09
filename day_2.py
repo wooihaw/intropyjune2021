@@ -29,3 +29,8 @@ clist = alist + blist  # list concatenation
 print(clist)
 
 print(5 * blist)  # list repetition
+
+a = []  # empty list
+for i in range(5):
+    a = a + [i]
+print(a)
