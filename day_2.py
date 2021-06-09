@@ -138,3 +138,7 @@ alist[1] = -0.5  # change item at index 1
 
 a = [3]  # a list with a single item
 b = (3,) # a tuple with a single item
+
+#%% Dictionary
+adict = {'happy': '😊', 'sad': '😢', 'neutral': '😑'}
+print(adict['happy'])
