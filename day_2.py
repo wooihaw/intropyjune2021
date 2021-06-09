@@ -39,3 +39,9 @@ for i in range(len(a)):
     b = a.pop()  # remove last item from a and put it to b
     print(f'{b=}')
 print(f'{a=}')
+
+a = list(range(5))
+print(f'{a=}')
+while a:
+    print(a.pop(0))
+    print(f'{a=}')
