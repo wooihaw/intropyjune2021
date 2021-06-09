@@ -95,3 +95,11 @@ print(f'{a=}, {b=}')
 # Use list comprehension
 c = [i**2 for i in a]
 print(f'{a=}, {c=}')
+
+# create a list of even number from 0 to 50
+# Use for loop
+d = []
+for i in range(51):
+    if i % 2 == 0:
+        d.append(i)
+print(f'{d=}')   
