@@ -63,3 +63,5 @@ print(f'{alist=}')
 print('😂' in alist)  # check membership of item; return True if the item is inside the list
 print('abc' in alist)
 print('abc' not in alist)
+
+print(alist.index(2.3))  # get the index of 2.3 in the list
