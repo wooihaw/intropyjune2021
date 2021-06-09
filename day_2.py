@@ -276,4 +276,8 @@ def mygen(x):
 
 a = mygen(10)
 print(next(a))
+print(next(a))
+print(next(a))
+print(next(a))
+print(next(a))
     
