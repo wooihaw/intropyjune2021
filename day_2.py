@@ -77,4 +77,5 @@ print(c is a)
 print(c == a) 
 
 a[2] = '😊'
+a.append('x')
 print(f'{a=}, {b=}, {c=}')
