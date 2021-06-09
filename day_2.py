@@ -45,3 +45,7 @@ print(f'{a=}')
 while a:
     print(a.pop(0))  # remove first item (index 0) from a
     print(f'{a=}')
+
+b = [21, 43, 12, -3, -7]
+c = sorted(b)
+print(f'{c=}')
