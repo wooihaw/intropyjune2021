@@ -12,4 +12,4 @@ for i in range(3):
     d[name] = age
 
 n = input('Enter a name to search: ')
-print(f'{n}\'s age is {d[n]}')
+print(f'{n}\'s age is {d.get(n, "unknown")}')
