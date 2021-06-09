@@ -206,3 +206,5 @@ d1['d'] = 7
 print(f'{d1=}, {d2=}')
 d3 = d1.copy()
 print(f'{d1=}, {d2=}, {d3=}')
+del d1['b']
+print(f'{d1=}, {d2=}, {d3=}')
