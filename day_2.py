@@ -179,5 +179,7 @@ print(f'{d=}')
 print(f'{len(d)=}')  # print the number of key-value pair in the dictionary
 
 e = {'kiwi': 5.25, 'jambu': 2.5}
-d.update(e)
+d.update(e)  # update d with contents from e
 print(f'{d=}')
+e.clear()  # clear the contents of e
+print(f'{e=}')
