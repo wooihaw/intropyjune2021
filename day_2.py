@@ -136,3 +136,5 @@ print(f'{alist.__sizeof__()=}, {atuple.__sizeof__()=}')
 alist[1] = -0.5  # change item at index 1
 #atuple[1] = -0.5  # this will cause an error
 
+a = [3]  # a list with a single item
+b = (3,) # a tuple with a single item
