@@ -191,5 +191,5 @@ for k in d:
     n1[k] = d[k] * 0.9  # 10% discount
 print(f'{d=}, {n1=}')
 
-n2 = {d[k] * 0.9 for k in d}
+n2 = {k:d[k] * 0.9 for k in d}
 print(f'{d=}, {n2=}')
