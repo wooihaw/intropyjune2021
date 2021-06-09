@@ -32,5 +32,10 @@ print(5 * blist)  # list repetition
 
 a = []  # empty list
 for i in range(5):
-    a = a + [i]
+    a = a + [i]  # a += [i]
+print(a)
+
+for i in range(len(a)):
+    b = a.pop()  # remove last item from a and put it to b
+    print(b)
 print(a)
