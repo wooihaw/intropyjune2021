@@ -202,3 +202,5 @@ print(bdict.get('😑'))
 d1 = dict(a=1, b=3, c=5)
 d2 = d1
 print(f'{d1=}, {d2=}')
+d1['d'] = 7
+print(f'{d1=}, {d2=}')
