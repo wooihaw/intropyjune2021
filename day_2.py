@@ -236,4 +236,7 @@ print(make_polite.__doc__)
 
 ids = ['id1', 'id2', 'id30', 'id3', 'id22', 'id201', 'id125']
 print(f'{sorted(ids)=}')
+
+sorted_ids = sorted(ids, key=lambda x:int(x[2:]))
+print(f'{sorted_ids=}')
     
