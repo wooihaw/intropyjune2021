@@ -208,3 +208,8 @@ d3 = d1.copy()
 print(f'{d1=}, {d2=}, {d3=}')
 del d1['b']
 print(f'{d1=}, {d2=}, {d3=}')
+
+d4 = dict(a=2, b=[4, 6, 8], c=10.12)
+d5 = d4.copy()
+d4['a'] = 3.5
+print(f'{d4=}, {d5=}')
