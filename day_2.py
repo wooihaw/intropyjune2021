@@ -196,4 +196,4 @@ print(f'{d=}, {n2=}')
 
 adict = {'happy': '😊', 'sad': '😢', 'neutral': '😑', 'angry': '😠'}
 bdict = {adict[k]:k for k in adict}  # reverse mapping
-print(f'')
+print(f'{adict=}, {bdict=}')
