@@ -13,3 +13,7 @@ for i in alist:
     if i[0].upper()=='P':
         blist.append(i)
 print(f'{blist=}')
+
+# Method 2 - Using list comprehension
+clist = [i for i in alist if i[0].upper()=='P']
+print(f'{clist=}')
