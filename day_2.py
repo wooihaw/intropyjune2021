@@ -143,7 +143,7 @@ b = (3,) # a tuple with a single item
 adict = {'happy': '😊', 'sad': '😢', 'neutral': '😑'}
 print(adict['happy'])  # retrieve the value using key
 
-adict['angry'] = '😠'
+adict['angry'] = '😠'  # add new key-value pair
 print(f'{adict=}')
 
 # Method 1 to create dictionary
@@ -164,3 +164,7 @@ d = dict(apple=1.2, banana=3.4, ciku=2.5, durian=25)
 for k in d:
     print(f'{k=}')  # iterate by keys
     print(f'{k} is RM{d[k]:.2f}') 
+
+d['egg'] = 4.75  # add new key-value pair
+print(d['durian'])  # get the value for durian
+#print(d['orange'])  # error
