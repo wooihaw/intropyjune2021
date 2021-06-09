@@ -200,7 +200,9 @@ print(f'{adict=}, {bdict=}')
 print(bdict.get('😑'))
 #%% alias, copy and deep copy
 d1 = dict(a=1, b=3, c=5)
-d2 = d1
+d2 = d1  # d2 is an alias of d1
 print(f'{d1=}, {d2=}')
 d1['d'] = 7
 print(f'{d1=}, {d2=}')
+d3 = d1.copy()
+print(f'{d1=}, {d2=}, {d3=}')
