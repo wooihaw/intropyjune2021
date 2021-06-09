@@ -65,3 +65,11 @@ print('abc' in alist)
 print('abc' not in alist)
 
 print(alist.index(2.3))  # get the index of 2.3 in the list
+
+#%% Alias or copy
+a = [1, 2, 3, 'a', 'b']
+b = a  # b is an alias of a
+c = a[:]  # c is a copy of a
+
+print(b is a)  # check whether b is an alias of a
+print(b == a)  # check whether b has the same contents as a
