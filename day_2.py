@@ -81,3 +81,13 @@ a[2] = '😊'
 a.append('x')
 print(f'{a=}, {b=}, {c=}')
 print(f'{id(a)=}, {id(b)=}, {id(c)=}')  # check addresses of a, b & c
+
+#%% List comprehension
+# create a list with the square of 1 to 10
+a = list(range(1, 11))
+
+# Use for loop
+b = []
+for i in a:
+    b.append(i**2)
+print(f'{a=}, {b=}')
