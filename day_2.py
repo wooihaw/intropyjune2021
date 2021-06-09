@@ -15,5 +15,8 @@ alist[0] = -0.5
 del(alist[2])
 print(alist)
 
-alist.append('😂')
+alist.append('😂')  # insert at the end
+print(alist)
+
+alist.insert(2, 4-5j)  # insert 4-5j at index 2
 print(alist)
