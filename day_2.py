@@ -259,5 +259,10 @@ animals3 = list(map(lambda x:x.title(), animals))
 
 print(f'{animals2}, {animals3}')
 
+#%% using filter()
+a1 = [i for i in range(1, 101) if i % 3 == 0]
+a2 = list(filter(lambda x: x % 3 == 0, range(1, 101)))
+print(f'{a1=}, {a2=}')
+
 
     
