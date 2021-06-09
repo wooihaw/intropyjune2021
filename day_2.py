@@ -239,4 +239,25 @@ print(f'{sorted(ids)=}')
 
 sorted_ids = sorted(ids, key=lambda x:int(x[2:]))
 print(f'{sorted_ids=}')
+
+#%% Using map()
+a = list(range(2, 11, 2))
+
+# Using list comprehension
+b = [i**2 for i in a]
+
+# Using map()
+c = list(map(lambda x: x**2, a))
+
+print(f'{b=}, {c=}')
+
+animals = ['cat', 'panda', 'raccoon']
+
+animals2 = [a.title() for a in animals]
+
+animals3 = list(map(lambda x:x.title(), animals))
+
+print(f'{animals2}, {animals3}')
+
+
     
