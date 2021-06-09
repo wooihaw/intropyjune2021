@@ -50,3 +50,6 @@ b = [21, 43, 12, -3, -7]
 c = sorted(b)
 d = sorted(b, reverse=True)
 print(f'{b=}, {c=}, {d=}')
+
+e = b.sort()
+print(f'{b=}, {e=}')
