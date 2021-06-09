@@ -73,3 +73,8 @@ c = a[:]  # c is a copy of a
 
 print(b is a)  # check whether b is an alias of a
 print(b == a)  # check whether b has the same contents as a
+print(c is a)
+print(c == a) 
+
+a[2] = '😊'
+print(f'{a=}, {b=}, {c=}')
