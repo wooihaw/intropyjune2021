@@ -9,3 +9,4 @@ alist = [1, 2.3, 4+5j, 'abc', [6, 7, -8.9]]
 print(alist[0])  # first item
 print(alist[-1])  # last item
 print(alist[-1][-1])  # this will print out -8.9
+print(alist.__sizeof__())  # print the size of alist
