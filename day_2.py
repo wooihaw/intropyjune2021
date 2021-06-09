@@ -260,9 +260,11 @@ animals3 = list(map(lambda x:x.title(), animals))
 print(f'{animals2}, {animals3}')
 
 #%% using filter()
-a1 = [i for i in range(1, 101) if i % 3 == 0]
-a2 = list(filter(lambda x: x % 3 == 0, range(1, 101)))
+a1 = [i for i in range(1, 101) if i % 3 == 0]  # using list comprehension
+a2 = list(filter(lambda x: x % 3 == 0, range(1, 101)))  # using filter()
 print(f'{a1=}, {a2=}')
 
-
+animals = ['cat', 'panda', 'raccoon', 'horse']
+animals2 = list(filter(lambda x: 'o' in x, animals))
+print(f'{animals2}')
     
