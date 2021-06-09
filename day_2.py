@@ -143,6 +143,9 @@ b = (3,) # a tuple with a single item
 adict = {'happy': '😊', 'sad': '😢', 'neutral': '😑'}
 print(adict['happy'])  # retrieve the value using key
 
+adict['angry'] = '😠'
+print(f'{adict=}')
+
 # Method 1 to create dictionary
 d1 = {'x':1.2, 'y':2.3, 'z':4.5}
 
