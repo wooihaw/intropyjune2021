@@ -19,5 +19,5 @@ print(f'There are {sum(cases_5000)} days with more than 5000 cases')
 print(df[cases_5000])
 
 deaths_50 = df['Death'] > 50
-print(f'There are {sum(cases_5000)} days with more than 5000 cases')
-print(df[cases_5000])
+print(f'There are {sum(deaths_50)} days with more than 50 deaths')
+print(df[deaths_50])
