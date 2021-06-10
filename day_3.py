@@ -43,3 +43,6 @@ with open('test.txt', 'r') as f:
     print(f'{s1=}, {s2=}')
     f.seek(0)  # rewind back to position 0 (beginning of the file)
     s3 = f.read(10)  # reading the first 10 characters
+    f.seek(15) # forward to position 15
+    s4 = f.read(5)  # read 5 characters
+    print(f'{s3=}, {s4=}')
