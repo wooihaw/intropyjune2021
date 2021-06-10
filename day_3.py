@@ -90,3 +90,6 @@ import urllib.request
 
 url = urllib.request.urlopen('http://python.org')
 html = url.read().decode('utf-8')
+
+with open('python.html', 'w') as f:
+    f.write(html)
