@@ -100,3 +100,11 @@ if 0 < x < 100:
     print('x is within limits')
 else:
     print('x is outside limits')
+
+#%% Storing Python objects using Pickle
+import pickle
+
+adict = dict(apple=1.2, banana=2.5, ciku=3.3, durian=25)
+
+with open('adict.pkl', 'wb') as f:
+    pickle.dump(adict)
