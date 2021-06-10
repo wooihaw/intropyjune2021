@@ -25,7 +25,7 @@ print(f"{adict.get('name', 'unknown')=}")
 
 #%% Open file for writing
 with open('test.txt', 'w') as outfile:
-    outfile.write('This is a test file.')
+    outfile.write('This is a test file.\n')
     
 #%% Open file for reading
 with open('test.txt', 'r') as infile:
