@@ -17,9 +17,9 @@ shuffle(alist)
 
 anagram = ''.join(alist)
 
-guess = gui.enterbox(f'Do you know what is this animal "{anagram}"? ')
+guess = gui.enterbox(f'Do you know what is this animal "{anagram}"? ', title='Anagram Game')
 
 if guess == word:
-    gui.msgbox('You are genius!')
+    gui.msgbox('You are genius!', title='Result')
 else:
-    gui.msgbox(f'Wrond answer. It should be {word}')
+    gui.msgbox(f'Wrond answer. It should be {word}', title='Result')
