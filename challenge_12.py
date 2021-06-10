@@ -27,3 +27,9 @@ m_groups = df.groupby(df.index.to_period('M'))
 m_groups['Case'].sum().plot.bar()
 plt.title('Monthly new cases')
 plt.show()
+
+# Plot bar chart for total cases for each day of the week
+d_groups = df.groupby(df.index.day_name())
+d_groups['Case'].sum().plot.bar()
+plt.title('Total new cases for each day of the week')
+plt.show()
