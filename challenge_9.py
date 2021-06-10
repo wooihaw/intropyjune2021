@@ -5,6 +5,7 @@ Created on Thu Jun 10 16:00:59 2021
 @author: wooihaw
 """
 # Challenge 9
+import easygui as gui
 from random import choice, shuffle
 animals = ['wolf', 'whale', 'cheetah', 'lizard', 'tiger', 'monkey', 'parrot',
 'gorilla', 'dolphin', 'snake']
@@ -16,9 +17,9 @@ shuffle(alist)
 
 anagram = ''.join(alist)
 
-guess = input(f'Do you know what is this animal "{anagram}"? ')
+guess = gui.enterbox(f'Do you know what is this animal "{anagram}"? ')
 
 if guess == word:
-    print('You are genius!')
+    gui.msgbox('You are genius!')
 else:
-    print(f'Wrond answer. It should be {word}')
+    gui.msgbox(f'Wrond answer. It should be {word}')
