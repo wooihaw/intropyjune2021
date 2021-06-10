@@ -31,3 +31,8 @@ with open('test.txt', 'w') as outfile:
 with open('test.txt', 'r') as infile:
     s = infile.read()
 print(s)
+
+#%% Open file for appending
+with open('test.txt', 'a') as outfile:
+    outfile.write('We are appending to the file.')
+    
