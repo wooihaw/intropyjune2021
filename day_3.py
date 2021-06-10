@@ -116,3 +116,8 @@ with open('adict.pkl', 'rb') as f:
     bdict = pickle.load(f)
 
 print(f'{bdict=}')
+
+#%% Tkinter empty window
+import tkinter as t
+root = t.Tk()
+root.mainloop()
