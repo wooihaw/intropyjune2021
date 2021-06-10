@@ -22,3 +22,8 @@ print(f'{alist=}')
 adict['addr'] ='123, First Avenue'
 print(f'{adict=}')
 print(f"{adict.get('name', 'unknown')=}")
+
+#%% Open file for writing
+with open('test.txt', 'w') as outfile:
+    outfile.write('This is a test file.')
+    
