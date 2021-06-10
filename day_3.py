@@ -21,3 +21,4 @@ print(f'{alist=}')
 
 adict['addr'] ='123, First Avenue'
 print(f'{adict=}')
+print(f"{adict.get('name', 'unknown')}")
