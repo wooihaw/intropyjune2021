@@ -46,3 +46,7 @@ with open('test.txt', 'r') as f:
     f.seek(15) # forward to position 15
     s4 = f.read(5)  # read 5 characters
     print(f'{s3=}, {s4=}')
+    f.seek(0)
+    line1 = f.readline()
+    line2 = f.readline()
+    print(f'{line1=} {line2=}')
