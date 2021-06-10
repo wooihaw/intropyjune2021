@@ -28,6 +28,6 @@ with open('test.txt', 'w') as outfile:
     outfile.write('This is a test file.')
     
 #%% Open file for reading
-with open('test1.txt', 'r') as infile:
+with open('test.txt', 'r') as infile:
     s = infile.read()
 print(s)
