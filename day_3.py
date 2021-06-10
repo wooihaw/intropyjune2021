@@ -75,5 +75,8 @@ contents = '''😊😂🤣😢😑😠
 with open('emoji.txt', encoding='utf-8', mode='w') as f:
     f.write(contents)
     
-#%%
+#%% Opening UTF-8 encoded file
+with open('emoji.txt', encoding='utf-8', mode='r') as g:
+    s = f.read()
+print(f'{s=}')
     
