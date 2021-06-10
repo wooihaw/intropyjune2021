@@ -8,8 +8,8 @@
 
 def title_case(string):
   # Add code here that returns the answer
-  ans = string[0].upper() + string[1:]
-  # ans = string.title()
+  # ans = string[0].upper() + string[1:]
+  ans = string.title()
   return ans
   
   
