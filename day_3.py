@@ -41,4 +41,5 @@ with open('test.txt', 'r') as f:
     s1 = f.read(5)  # reading the first 5 characters
     s2 = f.read(10) # reading the next 10 characters
     print(f'{s1=}, {s2=}')
-    
+    f.seek(0)  # rewind back to position 0 (beginning of the file)
+    s3 = f.read(10)  # reading the first 10 characters
