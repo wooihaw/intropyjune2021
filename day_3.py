@@ -66,3 +66,14 @@ with open('test.txt', 'r') as f:
 with open('test.txt', 'r') as f:
     for line in f:
         print(line)
+
+#%% Writing UTF-8 encoded file
+contents = '''😊😂🤣😢😑😠
+👌👍✌👏
+🍕🍔🍟🌭🍿'''
+
+with open('emoji.txt', encoding='utf-8', mode='w') as f:
+    f.write(contents)
+    
+#%%
+    
