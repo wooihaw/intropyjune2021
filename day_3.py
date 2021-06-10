@@ -125,3 +125,10 @@ root.mainloop()
 #%% Tkinter basic GUI
 import tkinter as t
 from tkinter import ttk
+
+root = t.Tk()
+root.title('My Window')
+root.geometry('400x400')
+lbl = ttk.Label(root, text='Hello world').grid()
+btn = ttk.Button(root, text='Quit', command=root.destroy).grid()
+root.mainloop()
