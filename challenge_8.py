@@ -15,6 +15,9 @@ class Circle:
     
     def circumference(self):
         return 2 * self.__pi * self.r
+    
+    def __str__(self):
+        return f'A circle with the radius os {self.r}'
 
 # This part will run if the script is executed as a Python program
 if __name__ == '__main__':
