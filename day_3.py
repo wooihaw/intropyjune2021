@@ -34,5 +34,5 @@ print(s)
 
 #%% Open file for appending
 with open('test.txt', 'a') as outfile:
-    outfile.write('We are appending to the file.')
+    outfile.write('We are appending to the file.\n')
     
