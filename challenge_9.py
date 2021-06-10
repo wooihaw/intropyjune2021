@@ -10,4 +10,15 @@ animals = ['wolf', 'whale', 'cheetah', 'lizard', 'tiger', 'monkey', 'parrot',
 'gorilla', 'dolphin', 'snake']
 
 word = choice(animals)
-print(word)
+
+alist = list(word)
+shuffle(alist)
+
+anagram = ''.join(alist)
+
+guess = input(f'Do you know what is this animal "{anagram}"? ')
+
+if guess == word:
+    print('You are genius!')
+else:
+    print(f'Wrond answer. It should be {word}')
