@@ -93,3 +93,10 @@ html = url.read().decode('utf-8')
 
 with open('python.html', 'w') as f:
     f.write(html)
+    
+#%% Chain operation
+x = 10
+if 0 < x < 100:
+    print('x is within limits')
+else:
+    print('x is outside limits')
