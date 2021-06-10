@@ -12,6 +12,7 @@ def animal(string):
         ans = 'antelope'
     else:
         ans = 'zebra'
+    # ans = 'antelope' if string[0] == 'a' else 'zebra'
     return ans
   
 # Add print statements here to test what your code does:
