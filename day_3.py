@@ -50,3 +50,6 @@ with open('test.txt', 'r') as f:
     line1 = f.readline()
     line2 = f.readline()
     print(f'{line1=} {line2=}')
+    f.seek(0)
+    lines = f.readlines()
+    print(f'{lines=}')
