@@ -121,3 +121,7 @@ print(f'{bdict=}')
 import tkinter as t
 root = t.Tk()
 root.mainloop()
+
+#%% Tkinter basic GUI
+import tkinter as t
+from tkinter import ttk
