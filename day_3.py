@@ -77,6 +77,6 @@ with open('emoji.txt', encoding='utf-8', mode='w') as f:
     
 #%% Opening UTF-8 encoded file
 with open('emoji.txt', encoding='utf-8', mode='r') as g:
-    s = f.read()
+    s = g.read()
 print(f'{s=}')
     
