@@ -24,3 +24,6 @@ print(df[deaths_50])
 
 # Plot bar chart for cases per month
 m_groups = df.groupby(df.index.to_period('M'))
+m_groups['Case'].sum().plot.bar()
+plt.title('Monthly new cases')
+plt.show()
