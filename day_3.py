@@ -84,3 +84,9 @@ print(f'{s=}')
 alist = ['This is line 1\n', 'This is line 2\n', 'This is line 3\n']
 with open('multilines.txt', 'w') as f:
     f.writelines(alist)
+
+#%% URL Handle
+import urllib.request
+
+url = urllib.request.urlopen('http://python.org')
+html = url.read().decode('utf-8')
