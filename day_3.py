@@ -41,3 +41,4 @@ with open('test.txt', 'r') as f:
     s1 = f.read(5)  # reading the first 5 characters
     s2 = f.read(10) # reading the next 10 characters
     print(f'{s1=}, {s2=}')
+    
