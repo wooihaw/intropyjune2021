@@ -53,3 +53,6 @@ with open('test.txt', 'r') as f:
     f.seek(0)
     lines = f.readlines()
     print(f'{lines=}')
+    f.seek(0)
+    s = f.read()
+    print(f'{s=}')
