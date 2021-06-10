@@ -126,9 +126,13 @@ root.mainloop()
 import tkinter as t
 from tkinter import ttk
 
+def on_click():
+    print('You have clicked the button')
+
 root = t.Tk()
 root.title('My Window')
 root.geometry('400x400')
 lbl = ttk.Label(root, text='Hello world').grid()
 btn = ttk.Button(root, text='Quit', command=root.destroy).grid()
+btn2 = ttk.Button(root, text='Click here', command=on_click).grid()
 root.mainloop()
