@@ -18,3 +18,6 @@ print(f'{astring1.upper()=}')
 
 alist.append([23.4, -56.7])
 print(f'{alist=}')
+
+adict['addr'] ='123, First Avenue'
+print(f'{adict=}')
