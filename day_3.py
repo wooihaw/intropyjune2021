@@ -56,3 +56,13 @@ with open('test.txt', 'r') as f:
     f.seek(0)
     s = f.read()
     print(f'{s=}')
+    
+#%% Iterate through file
+with open('test.txt', 'r') as f:
+    lines = f.readlines()
+    for line in lines:
+        print(line)
+
+with open('test.txt', 'r') as f:
+    for line in f:
+        print(line)
