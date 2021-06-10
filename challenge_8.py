@@ -15,7 +15,8 @@ class Circle:
     
     def circumference(self):
         return 2 * self.__pi * self.r
-    
+
+# This part will run if the script is executed as a Python program
 if __name__ == '__main__':
     c1 = Circle(4)
     print(f'Area={c1.area()}, circumference={c1.circumference()}')
