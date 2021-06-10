@@ -14,4 +14,7 @@ atuple = (1, 2.3, 4+5j, 'abc')
 adict = {'name': 'John', 'phone': 12345678}
 aset = {1, 2.3, 'abc'}
 
-print(f'{astring1.upper()}')
+print(f'{astring1.upper()=}')
+
+alist.append([23.4, -56.7])
+print(f'{alist=}')
