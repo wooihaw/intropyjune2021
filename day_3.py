@@ -79,4 +79,8 @@ with open('emoji.txt', encoding='utf-8', mode='w') as f:
 with open('emoji.txt', encoding='utf-8', mode='r') as g:
     s = g.read()
 print(f'{s=}')
-    
+
+#%% Write to multiple lines
+alist = ['This is line 1', 'This is line 2', 'This is line 3']
+with open('multilines.txt', 'w') as f:
+    f.writelines(alist)
