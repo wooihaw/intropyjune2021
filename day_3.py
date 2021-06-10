@@ -107,4 +107,12 @@ import pickle
 adict = dict(apple=1.2, banana=2.5, ciku=3.3, durian=25)
 
 with open('adict.pkl', 'wb') as f:
-    pickle.dump(adict)
+    pickle.dump(adict, f)
+
+#%% Retrieving Python objects using Pickle
+import pickle
+
+with open('adict.pkl', 'rb') as f:
+    bdict = pickle.load(f)
+
+print(f'{bdict=}')
